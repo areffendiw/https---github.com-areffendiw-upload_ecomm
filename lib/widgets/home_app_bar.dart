@@ -14,18 +14,18 @@ class HomeAppBar extends StatelessWidget {
           const Icon(
             Icons.sort,
             size: 30,
-            color: Colors.purpleAccent,
+            color: Colors.red,
           ),
           const Padding(
             padding: EdgeInsets.only(
               left: 20,
             ),
             child: Text(
-              "Salt Academy",
+              "MEGA SHOP",
               style: TextStyle(
                   fontSize: 23,
                   fontWeight: FontWeight.bold,
-                  color: Colors.purpleAccent),
+                  color: Colors.redAccent),
             ),
           ),
           const Spacer(),
@@ -43,7 +43,7 @@ class HomeAppBar extends StatelessWidget {
               child: const Icon(
                 Icons.shopping_cart_sharp,
                 size: 30,
-                color: Colors.purpleAccent,
+                color: Color.fromARGB(207, 244, 67, 54),
               ),
             ),
           )

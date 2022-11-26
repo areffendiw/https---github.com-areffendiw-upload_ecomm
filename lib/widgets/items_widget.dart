@@ -27,7 +27,7 @@ class ItemsWidget extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(5),
                       decoration: BoxDecoration(
-                        color: Colors.purpleAccent,
+                        color: Colors.redAccent,
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: const Text(
@@ -67,7 +67,7 @@ class ItemsWidget extends StatelessWidget {
                     "Kelas Data Science",
                     style: TextStyle(
                       fontSize: 16,
-                      color: Colors.purpleAccent,
+                      color: Colors.red,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -76,7 +76,8 @@ class ItemsWidget extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   child: const Text(
                     "Kelas data science untuk pemula",
-                    style: TextStyle(fontSize: 15, color: Colors.deepPurple),
+                    style: TextStyle(
+                        fontSize: 15, color: Color.fromARGB(255, 183, 58, 58)),
                   ),
                 ),
                 Padding(

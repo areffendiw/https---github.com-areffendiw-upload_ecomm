@@ -27,11 +27,11 @@ class CategoriesWidget extends StatelessWidget {
                     height: 40,
                   ),
                   const Text(
-                    "Data Science",
+                    "Jual Kelas Data Science",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
-                        color: Colors.purpleAccent),
+                        color: Colors.redAccent),
                   ),
                 ],
               ),

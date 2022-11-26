@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Salt E Course',
+      title: 'MEGA SHOP',
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       routes: {
         "/": (context) => const HomeScreen(),

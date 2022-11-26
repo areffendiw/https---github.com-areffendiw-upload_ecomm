@@ -35,7 +35,7 @@ class ItemBottomNavBar extends StatelessWidget {
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.purpleAccent),
+                backgroundColor: MaterialStateProperty.all(Colors.redAccent),
                 padding: MaterialStateProperty.all(
                   const EdgeInsets.symmetric(vertical: 13, horizontal: 15),
                 )),
