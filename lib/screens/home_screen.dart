@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/services/notification_service.dart';
 import 'package:flutter_application_1/widgets/items_widget.dart';
 import '../widgets/categorieswidget.dart';
 import '../widgets/home_app_bar.dart';
@@ -41,7 +42,7 @@ class HomeScreen extends StatelessWidget {
                           child: TextFormField(
                             decoration: const InputDecoration(
                               border: InputBorder.none,
-                              hintText: "Cari Kelas ...",
+                              hintText: "Cari Produk ...",
                             ),
                           ),
                         ),
@@ -65,19 +66,20 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 25,
                           fontWeight: FontWeight.bold,
-                          color: Colors.purpleAccent),
+                          color: Colors.redAccent),
                     ),
                   ),
                   const CategoriesWidget(),
                   Container(
                     alignment: Alignment.centerLeft,
-                    margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+                    margin: const EdgeInsets.symmetric(
+                        vertical: 20, horizontal: 10),
                     child: const Text(
-                      "Kelas Terbaik",
+                      "Produk Terbaik",
                       style: TextStyle(
                           fontSize: 25,
                           fontWeight: FontWeight.bold,
-                          color: Colors.purpleAccent),
+                          color: Colors.redAccent),
                     ),
                   ),
                   const ItemsWidget(),
@@ -90,7 +92,7 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.transparent,
           onTap: (index) {},
           height: 70,
-          color: Colors.purpleAccent,
+          color: Colors.redAccent,
           items: const [
             Icon(
               Icons.home,
